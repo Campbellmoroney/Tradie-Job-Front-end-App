@@ -4,9 +4,11 @@ import JobList from "./components/JobList";
 import jobs from "./data/jobs.json";
 
 const App = () => {
+  const [status, setStatus] = useState([]);
+
   return (
     <>
-      <JobList jobs={jobs} />
+      <JobList jobs={jobs} status={status} setStatus={setStatus} />
     </>
   );
 };

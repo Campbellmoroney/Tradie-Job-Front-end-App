@@ -1,8 +1,9 @@
 import Job from "./Job";
 import React from "react";
+import FilterForm from "../utils/FilterForm";
 
-const JobList = ({ jobs }) => {
-  if (!Array.isArray(jobs)) {
+const JobList = ({ jobs, status, setStatus }) => {
+  if (jobs.length === 0) {
     return (
       <>
         <p>No jobs found!</p>
@@ -12,6 +13,7 @@ const JobList = ({ jobs }) => {
 
   return (
     <div>
+        <FilterForm status={status} setStatus={setStatus} />
       <ul>
         {jobs.map((job) => {
           return (
