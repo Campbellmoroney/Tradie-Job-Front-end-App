@@ -1,5 +1,23 @@
-.form-container {
-  padding-left: 4rem;
+.job_page-container {
+  margin: 3rem;
+}
+
+.back-button {
+  cursor: pointer;
+  font-size: 1.5rem;
+  border: black solid;
+  padding: 0.5rem 1rem;
+}
+
+.notes-label {
+  font-size: 1.5rem;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.notes-format {
+  border: solid #3c3f3d;
+  padding: 10rem;
 }
 
 .form-format {
