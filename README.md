@@ -2,7 +2,8 @@
 
 ## Start up
 
-To start the application, type 'npm start' into the terminal.
+* To start the application, type 'cd client' into the terminal to navigate to the client directory
+* Then type 'npm start' into the terminal to start the local React server
 
 The application should then open in your browser on localhost:3000.
 

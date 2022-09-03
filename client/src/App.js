@@ -1,5 +1,5 @@
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React, { useState } from "react";
 import JobList from "./components/JobList";
 import JobPage from "./components/JobPage";
@@ -9,7 +9,7 @@ const App = () => {
   const [status, setStatus] = useState([]);
 
   return (
-    <>
+    <Router>
       <Routes>
         <Route
           path="/"
@@ -19,7 +19,7 @@ const App = () => {
         />
         <Route path="/jobpage" element={<JobPage />} />
       </Routes>
-    </>
+    </Router>
   );
 };
 

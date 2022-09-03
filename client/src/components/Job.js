@@ -1,10 +1,12 @@
 import "./Job.css";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Job = ({ title, status, date_created, client_name, client_email }) => {
   return (
     <li className="job-container">
-      <h3 className="job-title">{title}</h3>
+      <Link to={"/jobpage"}>
+        <h3 className="job-title">{title}</h3>
+      </Link>
       <span className="status">{status}</span>
       <span className="client-name">{client_name}</span>
       <span className="client-email">{client_email}</span>

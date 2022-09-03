@@ -10,12 +10,7 @@ const JobPage = () => {
       <div className="form-container">
         <form className="form-format">
           <label htmlFor="Notes">Notes</label>
-          <input
-            className="notes-format"
-            type="textarea"
-            id="notes"
-            value="notes"
-          ></input>
+          <input className="notes-format" type="textarea" id="notes"></input>
         </form>
       </div>
       <div className="form-container">
