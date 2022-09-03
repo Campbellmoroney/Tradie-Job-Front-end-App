@@ -12,7 +12,7 @@ const JobPage = () => {
       <p>Bob Smith</p>
       <p>bobsmith@example.com</p>
       <div>
-        <form className="form-format">
+        <form>
           <label className="notes-label" htmlFor="Notes">
             Notes
           </label>
@@ -22,9 +22,10 @@ const JobPage = () => {
             id="notes"
           ></textarea>
         </form>
+        <button className="notes-submit">Save Notes</button>
       </div>
       <div>
-        <form className="form-format">
+        <form>
           <label htmlFor="status">Change Status</label>
           <select className="filter-format" id="status" name="status">
             <option value="Scheduled">Scheduled</option>

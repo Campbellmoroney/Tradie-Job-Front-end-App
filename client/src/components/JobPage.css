@@ -5,7 +5,8 @@
 .back-button {
   cursor: pointer;
   font-size: 1.5rem;
-  border: black solid;
+  border: #3c3f3d solid;
+  background-color: rgba(0, 0, 0, 0.114);
   padding: 0.5rem 1rem;
 }
 
@@ -20,9 +21,14 @@
   padding: 10rem;
 }
 
-.form-format {
-  display: inline-block;
-  margin: 1rem;
+.notes-submit {
+  display: flex;
+  cursor: not-allowed;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0.114);
+  border: #3c3f3d solid;
+  padding: 0.5rem 1rem;
+  margin: 2rem 0;
 }
 
 .status {
