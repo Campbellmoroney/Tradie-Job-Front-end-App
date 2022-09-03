@@ -3,6 +3,7 @@ import jobs from "../data/jobs.json";
 
 const FilterForm = ({ status, setStatus = [] }) => {
   return (
+    <div className="form-container">
     <form className="form-format">
       <label htmlFor="status">Filter by Status:</label>
       <select
@@ -22,6 +23,7 @@ const FilterForm = ({ status, setStatus = [] }) => {
         ))}
       </select>
     </form>
+    </div>
   );
 };
 

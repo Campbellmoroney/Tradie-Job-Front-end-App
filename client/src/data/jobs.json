@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Job 1",
     "status": "Scheduled",
-    "date_created": "1st September - 09:30am",
+    "date_created": "30th August 2022 - 11:00am",
     "client_name": "Bob Smith",
     "client_email": "bobsmith@example.com"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "Job 2",
     "status": "Active",
-    "date_created": "1st September - 09:30am",
+    "date_created": "1st September 2022 - 9:30am",
     "client_name": "David Jones",
     "client_email": "davidjones@example.com"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "title": "Job 3",
     "status": "Invoicing",
-    "date_created": "1st September 2022 - 09:30am",
+    "date_created": "27th August 2022 - 3:30pm",
     "client_name": "Robert Harris",
     "client_email": "robertharris@example.com"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "title": "Job 4",
     "status": "To price",
-    "date_created": "1st September - 09:30am",
+    "date_created": "2nd September 2022 - 10:30am",
     "client_name": "Jane Doe",
     "client_email": "janedoe@example.com"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "title": "Job 5",
     "status": "Completed",
-    "date_created": "1st September - 09:30am",
+    "date_created": "26th August - 9:30am",
     "client_name": "Jim Jones",
     "client_email": "jimjones@example.com"
   }
