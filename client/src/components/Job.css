@@ -1,41 +1,40 @@
 .job-container {
-    display: grid;
-    grid-template-areas:
-      "title status"
-      "body body"
-      "date date";
-    color: #68628c;
-    background: #ffffff;
-    padding: 0 2rem 1rem 2rem;
-    margin: 3rem 2rem;
-    box-shadow: 0.25rem 0.25rem 0.5rem #0000002c;
-    max-width: 48rem;
-  }
-  
-  .job-title {
-    grid-area: title;
-  }
-  
-  .client-name {
-    grid-area: body;
-  }
-  
-  .status {
-    grid-area: status;
-    text-align: right;
-    justify-self: end;
-    align-self: center;
-    padding: 0.25rem;
-    border: solid;
-    color: white;
-    border-color: #3c3f3d;
-    background: #3c3f3d;
-    border-radius: 0.3rem;
-  }
-  
-  .date-created {
-    grid-area: date;
-    text-align: right;
-    font-size: 0.8rem;
-  }
-  
+  display: grid;
+  grid-template-areas:
+    "title status"
+    "body body"
+    "date date";
+  color: #68628c;
+  background: #ffffff;
+  padding: 0 2rem 1rem 2rem;
+  margin: 3rem 2rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem #0000002c;
+  max-width: 48rem;
+}
+
+.job-title {
+  grid-area: title;
+}
+
+.client-name {
+  grid-area: body;
+}
+
+.status {
+  grid-area: status;
+  text-align: right;
+  justify-self: end;
+  align-self: center;
+  padding: 0.25rem;
+  border: solid;
+  color: white;
+  border-color: #3c3f3d;
+  background: #3c3f3d;
+  border-radius: 0.3rem;
+}
+
+.date-created {
+  grid-area: date;
+  text-align: right;
+  font-size: 0.8rem;
+}

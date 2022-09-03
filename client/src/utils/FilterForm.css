@@ -3,18 +3,17 @@
 }
 
 .form-format {
-    display: inline-block;
-    margin: 1rem;
-  }
-  
-  .filter-format {
-    display: inline-block;
-    width: fit-content;
-    border: 0.15rem solid;
-    border-radius: 0.2rem;
-    padding: 0.5rem 1rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  
+  display: inline-block;
+  margin: 1rem;
+}
+
+.filter-format {
+  display: inline-block;
+  width: fit-content;
+  border: 0.15rem solid;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

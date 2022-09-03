@@ -1,0 +1,21 @@
+.form-container {
+  padding-left: 4rem;
+}
+
+.form-format {
+  display: inline-block;
+  margin: 1rem;
+}
+
+.status {
+  grid-area: status;
+  text-align: right;
+  justify-self: end;
+  align-self: center;
+  padding: 0.25rem;
+  border: solid;
+  color: white;
+  border-color: #3c3f3d;
+  background: #3c3f3d;
+  border-radius: 0.3rem;
+}
